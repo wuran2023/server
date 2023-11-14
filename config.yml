@@ -1,5 +1,5 @@
 server:
-  port: 80 # the port for the http server
+  port: 8080 # the port for the http server
   ssl:
     enabled: false # Render automatically enables SSL for the server
   responseheaders: # response headers added to every response (default: none)
@@ -7,8 +7,7 @@ server:
     Access-Control-Allow-Methods: "GET,POST"
   stream:
     allowedorigins: # allowed origins for websocket connections (same origin is always allowed, default only same origin)
-      - gotify.zeabur.com
-      - gotify2.zeabur.com
+      - gotify.zeabur.app
 
 database: # for database see (configure database section)
   dialect: sqlite3
