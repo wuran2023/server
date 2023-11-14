@@ -1,5 +1,5 @@
 server:
-  port: 8080 # the port for the http server
+  port: 80 # the port for the http server
   ssl:
     enabled: false # Render automatically enables SSL for the server
   responseheaders: # response headers added to every response (default: none)
